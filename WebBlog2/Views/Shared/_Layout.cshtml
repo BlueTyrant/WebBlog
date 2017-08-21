@@ -3,12 +3,26 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - LunaTry</title>
+    @* Template Files *@
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Vendor styles--> 
+    <link rel="stylesheet" href="~/Content/_mytemplate/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="~/Content/_mytemplate/vendors/bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" href="~/Content/_mytemplate/vendors/bower_components/jquery.scrollbar/jquery.scrollbar.css">
+    <!-- App styles -->
+    <link rel="stylesheet" href="~/Content/_mytemplate/css/app.min.css">
+    @*<link rel="stylesheet" href="~/Content/_mytemplate/css/app.css">*@
+    
+    
+
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
+
 </head>
-<body>
+<body style="background-color:#F6F6F6">
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -17,7 +31,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Blog", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -29,16 +43,34 @@
             </div>
         </div>
     </div>
+
     <div class="container body-content">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - LunaTry</p>
         </footer>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    <script src="~/Content/_mytemplate/vendors/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="~/Content/_mytemplate/vendors/bower_components/tether/dist/js/tether.min.js"></script>
+    <script src="~/Content/_mytemplate/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/Content/_mytemplate/vendors/bower_components/Waves/dist/waves.min.js"></script>
+    <script src="~/Content/_mytemplate/vendors/bower_components/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="~/Content/_mytemplate/vendors/bower_components/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+    <!-- Vendors: Data tables -->
+    <script src="~/Content/_mytemplate/vendors/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="~/Content/_mytemplate/vendors/bower_components/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="~/Content/_mytemplate/vendors/bower_components/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="~/Content/_mytemplate/vendors/bower_components/jszip/dist/jszip.min.js"></script>
+    <script src="~/Content/_mytemplate/vendors/bower_components/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <!-- App functions and actions -->
+    <script src="~/Content/_mytemplate/js/app.min.js"></script>
+    <script src="~/Content/_mytemplate/js/inc/functions/app.js"></script>
+    @*<script src="@Url.Content("~/Content/mytemplates/")js/main.js"></script>*@
+
 </body>
 </html>

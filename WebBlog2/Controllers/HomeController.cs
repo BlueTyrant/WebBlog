@@ -26,5 +26,17 @@ namespace WebBlog2.Controllers
 
             return View();
         }
+        public ActionResult Details()
+        {
+            ViewBag.Message = "Specific Blog page.";
+
+            return View();
+        }
+        public ActionResult Details1()
+        {
+            ViewBag.Message = "Specific Blog page.";
+
+            return View();
+        }
     }
 }

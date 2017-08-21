@@ -1,31 +1,215 @@
 ﻿@{
     ViewBag.Title = "Home Page";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+@Html.Partial("_Sources")
+
+<section class="content" style="border: 1px none">
+
+
+
+   @*<div class="card-header" style="text-align: center;">
+            <h2 class="card-title">karri Blog</h2>
+            <h1 class="card-subtitle">The simplest way to send money to your school</h1>
+        </div>*@
+    
+    <div class="card-block">
+        <div class="row blog-card-spacer" style="width:100%">
+            @*<div class="ln-card blog-card-promoted">*@
+                @*<div class="row">*@
+
+                   
+
+                    <div class="col-md-6 col-sm-12 col-xs-12 remove-card-space">
+                        <div class="card-demo" data-action ="@Url.Action("Details", "Home")">
+                            <div class="card">
+                                <img class="card-img" src="~/Content/_mytemplate/img/sidebar/clear.png" style="height:290px">
+                                <div class="card-img-overlay">
+                                <div class="card-header">
+                                    <h2 class="card-title">Card title</h2>
+                                    <small class="card-subtitle">Praesent commodo cursus magna scelerisque consectetur.</small>
+                                </div>
+                                <div class="card-block" @*style="overflow: hidden; max-height: 3.6em;"*@>
+                                    <div class="text ellipsis">
+                                        <span class="text-concat">
+                                            Lorem ipsum dolor sit amet, nibh eleifend cu his, porro fugit mandamus no mea. Sit tale facete voluptatum ea, ad sumo altera scripta per, eius ullum feugait id duo. At nominavi pericula persecuti ius, sea at sonet tincidunt, cu posse facilisis eos. Aliquid philosophia contentiones id eos, per cu atqui option disputationi, no vis nobis vidisse. Eu has mentitum conclusionemque, primis deterruisset est in.
+
+                                            Virtute feugait ei vim. Commune honestatis accommodare pri ex. Ut est civibus accusam, pro principes conceptam ei, et duo case veniam. Partiendo concludaturque at duo. Ei eirmod verear consequuntur pri. Esse malis facilisis ex vix, cu hinc suavitate scriptorem pri.
+
+                                            Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui.
+                                            Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui.
+                                            Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui.
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="card-tags">
+                                        <span class="blog-card">Global</span>
+                                    </div>
+                                    <span class="read-more">Read More</span>
+                                </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 remove-card-space">
+                <div class="card-demo">
+                    <div class="card card-inverse">
+                        <img class="card-img" src="~/Content/_mytemplate/demo/img/card-img-overlay.jpg" style="height:290px;">
+                        <div class="card-img-overlay">
+                        </div>
+                    </div>
+                </div>
+            </div>
+                @* </div>*@
+            @* </div>*@
+        </div>
+
+        <div class="table-responsive">
+            <table id="data-table" class="table table-bordered" style="border: 1px none">
+
+                <tbody style="border:none">
+                    <tr>
+                        
+                        
+                            
+                        @*<td style="border:none"></td>*@
+    </tr>
+
+<tr>
+                        <td style="border:none">
+                            <div class="card-demo" data-action ="@Url.Action("Details", "Home")">
+                                <div class="carded">
+                                    <img class="card-img-top" src="~/Content/_mytemplate/demo/img/headers/10.png">
+                                    <div class="card-header">
+                                        <h2 class="card-title">Card title</h2>
+                                        <small class="card-subtitle">Praesent commodo cursus magna scelerisque consectetur</small>
+                                    </div>
+                                    <div class="card-block">
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-tags">
+                                            <span class="blog-card">Global</span>
+                                        </div>
+                                        <span class="read-more">Read More</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </td>
+                        <td style="border:none">
+                            <div class="card-demo" data-action ="@Url.Action("Details", "Home")">
+                                <div class="carded">
+                                    <img class="card-img-top" src="~/Content/_mytemplate/demo/img/headers/1.png">
+                                    <div class="card-header">
+                                        <h2 class="card-title">Card title</h2>
+                                        <small class="card-subtitle">Praesent commodo cursus magna scelerisque consectetur</small>
+                                    </div>
+                                    <div class="card-block">
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-tags">
+                                            <span class="blog-card">Global</span>
+                                        </div>
+                                        <span class="read-more">Read More</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td style="border:none">
+                            <div class="card-demo" data-action ="@Url.Action("Details1", "Home")">
+                                <div class="carded">
+                                    <img class="card-img-top" src="~/Content/_mytemplate/demo/img/headers/2.png">
+                                    <div class="card-header">
+                                        <h2 class="card-title">Card title</h2>
+                                        <small class="card-subtitle">Praesent commodo cursus magna scelerisque consectetur</small>
+                                    </div>
+                                    <div class="card-block">
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-tags">
+                                            <span class="blog-card">Global</span>
+                                        </div>
+                                        <span class="read-more">Read More</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </td>
+                        <td style="border:none">
+                            <div class="card-demo" data-action ="@Url.Action("Details", "Home")">@*@Html.ActionLink("Blogish", "Blog1", "Shared")*@
+                                <div class="carded">
+                                    <img class="card-img-top" src="~/Content/_mytemplate/demo/img/headers/5.png">
+                                    <div class="card-header">
+                                        <h2 class="card-title">Card title</h2>
+                                        <small class="card-subtitle">Praesent commodo cursus magna scelerisque consectetur</small>
+                                    </div>
+                                    <div class="card-block">
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="card-tags">
+                                            <span class="blog-card">Global</span>
+                                        </div>
+                                        <span class="read-more">Read More</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        
+                    
+                    </tr>
+                </tbody>
+               
+            </table>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <nav class="ln-pagination-bar" aria-label="Page navigation">
+                        <ul class="pagination">
+                            <li class="inactive">
+                                <a href="/blog/en/page/2" aria-label="Previous">
+                                    <span aria-hidden="true">‹</span>
+                                </a>
+                            </li>
+                            <li class="active"><a href="/blog/en/">1</a></li>
+                            @*<li><a href="/blog/en/page/2">2</a></li>
+                            <li><a href="/blog/en/page/3">3</a></li>
+                            <li><a href="/blog/en/page/4">4</a></li>
+                            <li><a href="/blog/en/page/5">5</a></li>*@
+                            <li>
+                                <a href="/blog/en/" aria-label="Next">
+                                    <span aria-hidden="true">›</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+    @*</div>*@
+    <footer class="footer hidden-xs-down">
+        <p>© karri Admin Responsive. All rights reserved.</p>
+        <ul class="nav footer__nav">
+            @*<a class="nav-link" href="">Homepage</a>
+    <a class="nav-link" href="">Company</a>
+    <a class="nav-link" href="">Support</a>
+    <a class="nav-link" href="">News</a>
+    <a class="nav-link" href="">Contacts</a>*@
+
+        </ul>
+    </footer>
+</section>

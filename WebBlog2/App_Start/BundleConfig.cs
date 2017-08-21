@@ -25,6 +25,7 @@ namespace WebBlog2
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      //"~/Content/_mytemplate/css/app.css",
                       "~/Content/site.css"));
         }
     }
