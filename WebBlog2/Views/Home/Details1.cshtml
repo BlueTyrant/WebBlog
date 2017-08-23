@@ -2,7 +2,19 @@
     ViewBag.Title = "Blog2";
 }
 @Html.Partial("_BlogSource")
-<div class="card-demo">
+<div data-action="@Url.Action("Index", "Home")">
+    <a class="back" style="color: rgba(57,167,123,0.9);">
+        <svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: relative; top: 3px; margin-right: 15px;">
+            <g id="Designs" stroke="none" stroke-width="1" fill="rgba(57,167,123,0.9);" fill-rule="evenodd">
+                <g id="Luno-home-nav-web-01a" transform="translate(-35.000000, -42.000000)" fill="rgba(57,167,123,0.9);" style="fill: rgba(57,167,123,0.9);">
+                    <polygon id="Fill-2" points="53 49.875 39.3087499 49.875 45.5975 43.5862498 44 42 35 51 44 60 45.5862498 58.4137501 39.3087499 52.125 53 52.125"></polygon>
+                </g>
+            </g>
+        </svg>
+        Back to Articles
+    </a>
+</div>
+<div class="card-demo" style="margin-top: 75px;">
     <div class="card">
         @*<img class="card-img" src="~/Content/_mytemplate/img/sidebar/clear.png" style="height:290px">*@
             <div class="card-header">

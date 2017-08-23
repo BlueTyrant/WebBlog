@@ -729,7 +729,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>60549</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:60549/</IISUrl>
+          <IISUrl>http://localhost:34506/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
