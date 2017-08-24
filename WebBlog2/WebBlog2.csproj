@@ -624,8 +624,12 @@
     <Content Include="Content\_mytemplate\img\calendar\november.jpg" />
     <Content Include="Content\_mytemplate\img\calendar\october.jpg" />
     <Content Include="Content\_mytemplate\img\calendar\september.jpg" />
+    <Content Include="Content\_mytemplate\img\sidebar\150px-Westerfordbadge1.jpg" />
     <Content Include="Content\_mytemplate\img\sidebar\5.jpg" />
+    <Content Include="Content\_mytemplate\img\sidebar\avatar_250x282.jpg" />
+    <Content Include="Content\_mytemplate\img\sidebar\badge_large3.png" />
     <Content Include="Content\_mytemplate\img\sidebar\clear.png" />
+    <Content Include="Content\_mytemplate\img\sidebar\milnerton %282%29.png" />
     <Content Include="Content\_mytemplate\img\sidebar\puzzle.jpg" />
     <Content Include="Content\_mytemplate\img\sidebar\sidebar-bg.jpg" />
     <Content Include="Content\_mytemplate\img\sidebar\sidebar-bg.png" />
@@ -696,6 +700,9 @@
     <Content Include="Views\Shared\_Sources.cshtml" />
     <Content Include="Views\Home\Details1.cshtml" />
     <Content Include="Views\Shared\_BlogSource.cshtml" />
+    <Content Include="Views\Home\Testimony.cshtml" />
+    <Content Include="Views\Home\Testimony1.cshtml" />
+    <Content Include="Views\Home\Testimony2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

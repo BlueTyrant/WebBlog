@@ -1,17 +1,40 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
-
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
-
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+@Html.Partial("_BlogSource")
+<div class="card-demo" style="margin-top: 75px;">
+    <div class="card" style="padding-left: 60px; padding-right: 60px;">
+        <center>
+            <img class="card-img-top" src="~/Content/_mytemplate/img/sidebar/milnerton (2).png" style="width:15%; padding-left: 20px;">
+        </center>
+        <div class="card-header">
+            <h2 class="card-title">MILNERTON PRIMARY SCHOOL</h2>
+            <small class="card-subtitle" style="font-weight: 600;">J.Whittal</small>
+            <small class="datetext">18 Aug 2017</small>
+        </div>
+        <div class="card-block">
+            <p class="blog-detail">
+                Our School has been using the Karri App since the end of June 2017. It has been a simple and easy transition which has been welcomed by both staff and parents.
+                
+            </p>
+            <p class="blog-detail">
+                We have benefited in so many ways, for example: <br />
+                - Time saving: no need to count, write up and balance cash received.<br />
+                - Record keeping: each event is kept up to date.<br />
+                - Safety: no need for pupils to carry cash, less cash on premises.
+                </p>
+            <p class="blog-detail">
+                We cannot praise the Karri App and its team enough. This is the way forward for schools and parents.
+                </p>
+            @*<p class="blog-detail">
+                Please do not hesitate to contact me for any information    
+            </p>*@
+            @*<div class="card-footer">
+                    <div class="card-tags">
+                        <span class="blog-card">Global</span>
+                    </div>
+                    <span class="read-more">Read More</span>
+                </div>*@
+        </div>
+    </div>
+</div>

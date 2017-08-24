@@ -38,5 +38,23 @@ namespace WebBlog2.Controllers
 
             return View();
         }
+        public ActionResult Testimony()
+        {
+            ViewBag.Message = "Specific Testimony page.";
+
+            return View();
+        }
+        public ActionResult Testimony1()
+        {
+            ViewBag.Message = "Specific Testimony page.";
+
+            return View();
+        }
+        public ActionResult Testimony2()
+        {
+            ViewBag.Message = "Specific Testimony page.";
+
+            return View();
+        }
     }
 }
